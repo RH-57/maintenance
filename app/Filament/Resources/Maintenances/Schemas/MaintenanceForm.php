@@ -86,7 +86,7 @@ class MaintenanceForm
                                 Hidden::make('checklist_item_id')
                                     ->required(),
 
-                                TextInput::make('checklistItem.item')
+                                TextInput::make('item_name')
                                     ->label('Checklist')
                                     ->disabled()
                                     ->dehydrated(false),
